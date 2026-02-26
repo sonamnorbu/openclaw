@@ -1,9 +1,34 @@
 {
+  "meta": {
+    "lastTouchedVersion": "2026.2.26",
+    "lastTouchedAt": "2026-02-26T15:35:59.967Z"
+  },
+  "models": {
+    "mode": "merge"
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "together/deepseek-ai/DeepSeek-R1",
+        "fallbacks": [
+          "together/zai-org/GLM-4.7-FP8"
+        ]
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
   "gateway": {
-    "bind": "lan",
     "port": 18789,
+    "bind": "lan",
     "controlUi": {
-      "allowedOrigins": ["https://clawbot.lalbazaar.in"]
+      "allowedOrigins": [
+        "https://clawbot.lalbazaar.in"
+      ]
     }
   }
 }

@@ -2,7 +2,6 @@
   "gateway": {
     "bind": "lan",
     "port": 18789,
-    "allowUnconfigured": true,
     "controlUi": {
       "allowedOrigins": ["https://clawbot.lalbazaar.in"]
     }
